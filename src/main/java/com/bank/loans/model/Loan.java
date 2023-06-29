@@ -1,4 +1,4 @@
-package com.techm.loans.model;
+package com.bank.loans.model;
 
 public class Loan {
 

@@ -1,8 +1,8 @@
-package com.techm.loans.service;
+package com.bank.loans.service;
 
 import java.util.List;
 
-import com.techm.loans.model.Customer;
+import com.bank.loans.model.Customer;
 
 public interface LoanService {
 

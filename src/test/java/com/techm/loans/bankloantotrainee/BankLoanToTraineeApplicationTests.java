@@ -17,9 +17,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
 
-import com.techm.loans.api.LoanAPI;
-import com.techm.loans.model.Customer;
-import com.techm.loans.service.LoanService;
+import com.bank.loans.api.LoanAPI;
+import com.bank.loans.model.Customer;
+import com.bank.loans.service.LoanService;
 
 class LoanAPITest {
 

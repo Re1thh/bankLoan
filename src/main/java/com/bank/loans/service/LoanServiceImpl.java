@@ -1,4 +1,4 @@
-package com.techm.loans.service;
+package com.bank.loans.service;
 
 import java.util.List;
 
@@ -10,9 +10,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Service;
 
-import com.techm.loans.dao.LoanDAO;
-import com.techm.loans.model.Customer;
-import com.techm.loans.validator.Validator;
+import com.bank.loans.dao.LoanDAO;
+import com.bank.loans.model.Customer;
+import com.bank.loans.validator.Validator;
 
 @Service("loanService")
 @Transactional

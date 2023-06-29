@@ -1,4 +1,4 @@
-package com.techm.loans.api;
+package com.bank.loans.api;
 
 import java.time.LocalDateTime;
 import java.util.Date;
@@ -21,8 +21,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
-import com.techm.loans.model.Customer;
-import com.techm.loans.service.LoanService;
+import com.bank.loans.model.Customer;
+import com.bank.loans.service.LoanService;
 
 @RestController
 @RequestMapping("/loans")

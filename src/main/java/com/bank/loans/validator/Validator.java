@@ -1,10 +1,10 @@
-package com.techm.loans.validator;
+package com.bank.loans.validator;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Component;
 
-import com.techm.loans.model.Loan;
+import com.bank.loans.model.Loan;
 
 @Component
 public class Validator {

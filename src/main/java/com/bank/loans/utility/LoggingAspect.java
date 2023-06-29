@@ -1,4 +1,4 @@
-package com.techm.loans.utility;
+package com.bank.loans.utility;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

@@ -1,4 +1,4 @@
-package com.techm.loans.dao;
+package com.bank.loans.dao;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,10 +8,10 @@ import javax.persistence.PersistenceContext;
 
 import org.springframework.stereotype.Repository;
 
-import com.techm.loans.entity.CustomerEntity;
-import com.techm.loans.entity.LoanEntity;
-import com.techm.loans.model.Customer;
-import com.techm.loans.model.Loan;
+import com.bank.loans.entity.CustomerEntity;
+import com.bank.loans.entity.LoanEntity;
+import com.bank.loans.model.Customer;
+import com.bank.loans.model.Loan;
 
 @Repository("loanDAO")
 public class LoanDAOImpl implements LoanDAO {

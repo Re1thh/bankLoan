@@ -1,4 +1,4 @@
-package com.techm.loans.entity;
+package com.bank.loans.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
